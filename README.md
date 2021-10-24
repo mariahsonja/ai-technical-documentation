@@ -63,10 +63,10 @@ In  this  technique,  k-1  folds  are  used  for  training  and  the remaining o
 
 In Leave-One-Out Cross-Validation, all of the data except one record is used for training and one record is used for testing. This process is repeated for N times if there are N records. The advantage is that entire data is used for training and testing. The error rate of the model is average of the error rate of each iteration. Costly.
 
-### Random Subsampling
+#### Random Subsampling
 
 In this technique, multiple sets of data are randomly chosen from the  dataset  and  combined  to  form  a  test  dataset.  The  remaining  data  forms  the  training dataset. The error rate of the model is theaverage of the error rate of each iteration.
 
-### Bootstrapping
+#### Bootstrapping
 
 In   this   technique,   the   training   dataset   is   randomly   selected   with replacement.  The  remaining  examples  that  were  not  selected  for  training  are  used  for testing. Unlike K-fold cross-validation, the value is likely to change from fold-to-fold. The error rate of the model is average of the error rate of each iteration.
