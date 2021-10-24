@@ -1,16 +1,8 @@
 # Technical Basics Documentation
 
-...
-
-...
-
-...
-
-...
-
-...
-
-[Machine Learning](#machine-learning-review), [Validation Techniques](#validation-techniques), [Deep Learning](#deep-learning-review), 
+- [Machine Learning](#machine-learning-review)
+- [Validation Techniques](#validation-techniques)
+- [Deep Learning](#deep-learning-review), 
 
 ## Machine Learning Review
 
@@ -51,7 +43,7 @@
   - SARSA (state-action-reward-state-action)
   
 ## Validation Techniques
-[Resubstitution](#resubstitution), [Hold-out](#hold-out), [K-fold Cross-Validation](#K-fold-cross-validation), [LOOCV](#LOOCV-(Leave-One-Out Cross-Validation)), [Random Subsampling](#random-subsampling), [Bootstrapping](#bootstrapping)
+[Resubstitution](#1.resubstitution), [Hold-out](#2.hold-out), [K-fold Cross-Validation](#3.K-fold-cross-validation), [LOOCV](4.#LOOCV(Leave-One-Out Cross-Validation)), [Random Subsampling](#5.random-subsampling), [Bootstrapping](#6.bootstrapping)
 
 Used to get the error rate of the ML model, which can be considered as close to the true error rate of the population. If the data volume is large enough to be representative of the population, you may not need the validation techniques. 
 
