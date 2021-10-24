@@ -1,0 +1,3 @@
+Speech TranscriptionAlgorithms•Online sequence-to-sequence:It produces the output as the inputarrivesand uses CNNto encode the audios.•Sequence-to-sequence: It makes next steps predictions.•Connectionist Temporal Classification: It is a sequence of data frames with length T: x1, x2, ..., xT, and Y is the output tokens of length L: y1, y2, ..., yL. Because of the way the model is constructed, we require T to be greater than L.
+
+Text-to-speech(TTS)Open Source•Festival Speech Synthesis Systemwhich uses diphone-based synthesis, as well as more modern and better-sounding techniques.•eSpeakwhich supports a broad range of languages.•Gnuspeechwhich uses articulatory synthesisfrom theFree Software Foundation.
