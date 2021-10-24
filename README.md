@@ -1,4 +1,4 @@
-# Technical Basics Documentation
+# Technical Documentation
 
 - [Machine Learning Review](#machine-learning-review)
 - [Validation Techniques](#validation-techniques)
