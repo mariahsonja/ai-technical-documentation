@@ -1,8 +1,9 @@
 # Technical Basics Documentation
 
-- [Machine Learning](#machine-learning-review)
+- [Machine Learning Review](#machine-learning-review)
 - [Validation Techniques](#validation-techniques)
-- [Deep Learning](#deep-learning-review), 
+- [Performance Measurements](#performance-measurements)
+- [Deep Learning Review](#deep-learning-review), 
 
 ## Machine Learning Review
 
@@ -72,13 +73,13 @@ In this technique, multiple sets of data are randomly chosen from the  dataset  
 In   this   technique,   the   training   dataset   is   randomly   selected   with replacement.  The  remaining  examples  that  were  not  selected  for  training  are  used  for testing. Unlike K-fold cross-validation, the value is likely to change from fold-to-fold. The error rate of the model is average of the error rate of each iteration.
 
 ## Performance Measurements
-[Confusion Matrix](#confusion-matrix), [Accuracy](#accuracy), [](),
+[Confusion Matrix](#confusion-matrix), [Accuracy](#accuracy), [Error Rate](#error-rate), [Precision](#precision), [Recall](#recall), [Specificity](#specificity), [F1-score](#f1-score), [Precision-Recall](#precision-recall), [ROC Curve](#roc-curve), [PR vs ROC Curve](#pr-vs-roc-curve)
 
 From a binary classification problem:
-- True positives (TP): Predicted positive and are actually positive.
-- False positives (FP): Predicted positive and are actually negative.
-- True negatives (TN): Predicted negative and are actually negative.
-- False negatives (FN): Predicted negative and are actually positive.
+- **True positives (TP):** Predicted positive and are actually positive.
+- **False positives (FP):** Predicted positive and are actually negative.
+- **True negatives (TN):** Predicted negative and are actually negative.
+- **False negatives (FN):** Predicted negative and are actually positive.
 
 There are multiple techniques that can be used to measure performance:
 
@@ -118,7 +119,7 @@ Percentage  of  negative  instances  out  of  the total  actual  negative instan
 
 IMAGE
 
-#### F1  score: 
+#### F1-score
 
 It is  the  harmonic  mean  of  precision  and  recall.  This  takes  the  contribution  of both, so higher the F1 score, the better. See that due to the product in the numerator if one goes low, the final F1 score goes down significantly. So a model does well in F1 score if the positive predicted are actually positives (precision) and doesn't miss out on positives and predicts  them  negative  (recall). One  drawback  is  that  both  precision  and  recall  are  given equal importance due to which according to our application we may need one higher than the other and F1 score may not be the exact metric for it. Therefore either weighted-F1 score or seeing the PR or ROC curve can help.
 
@@ -143,7 +144,7 @@ IMAGE
 **Due to the consideration of TN or the negative class in the ROC equation, it is useful when  both  the  classes  are  important  to  us.** Like  the  detection  of  cats  and  dog.  The importance of true negatives makes sure that both the classes are given importance, like the output of a CNN model in determining the image is of a cat or a dog.
 
 
-### Deep Learning
+## Deep Learning Review
 
 ...
 ...
