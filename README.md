@@ -13,6 +13,8 @@
 [Machine Learning](#machine-learning-review), [Deep Learning](#deep-learning-review), 
 
 ## Machine Learning Review
+
+[Supervised Learning](#supervised-learning), [Unsupervised Learning](#unsupervised-learning), [Reinforcement Learning](#reinforcement-learning)
   
 ### Supervised Learning
 
