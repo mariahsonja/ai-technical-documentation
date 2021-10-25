@@ -9,7 +9,7 @@
 ![Speech Transcription](https://img.shields.io/badge/AI-Speech%20Transcription-red)
 ![Validation Techniques](https://img.shields.io/badge/AI-Validation%20Techniques-blue)
 
-This is a collection of documents that covers multiple aspects of **Artifitial Intelligence**. I started this documentation during my ealier studies in (2016) and I have been updating it trought the years. 
+This is a collection of documents that covers multiple aspects of **Artificial Intelligence**. I started this documentation during my ealier studies in (2016) and I have been updating it trought the years. 
 
 - [Deep Learning Review](./deep-learning.md)
 - [Machine Learning Review](./machine-learning.md)
