@@ -1,6 +1,6 @@
 # Technical Documentation
 
-- [Machine Learning Review](#machine-learning-review)
+- [Machine Learning Review](./machine-learning.md)
 - [Validation Techniques](#validation-techniques)
 - [Performance Measurements](#performance-measurements)
 - [Deep Learning Review](#deep-learning-review)
