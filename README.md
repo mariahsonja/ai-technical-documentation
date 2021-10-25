@@ -2,7 +2,7 @@
 
 ![Deep Learning](https://img.shields.io/badge/AI-Deep%20Learning-brightgreen.svg)
 ![Mchine Learning](https://img.shields.io/badge/AI-Machine%20Learning-9cf)
-![NLP](https://img.shields.io/badge/AI-NLP-orange)
+<!-- ![NLP](https://img.shields.io/badge/AI-NLP-orange) -->
 ![Open Source](https://img.shields.io/badge/AI-Open%20Source-blueviolet)
 ![Performance Measurements](https://img.shields.io/badge/AI-Performance%20Measurements-pink)
 ![Speech Transcription](https://img.shields.io/badge/AI-Speech%20Transcription-red)
